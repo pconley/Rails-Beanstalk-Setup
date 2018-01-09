@@ -55,5 +55,13 @@ Note from the command below, that skip migration is set to false so EB should au
 ```
 eb printenv
 ```
+Now deploy the changes
+```
 eb deploy
 eb open
+```
+## To destroy the instance
+```
+eb terminate
+```
+Now circle back to the "create" to start over (not the init!)
