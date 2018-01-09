@@ -1,5 +1,9 @@
 # Rails Beanstalk Setup
-These are my note from using the AWS walkthru document at the url below which is very good and has really only one error (at the time of this writing).  For some reason the listen gem needs to be at the top level of the gemfile and not in the development section.  This is a simplified version that drived directly to the end production deply with one db object.
+These are my note from using the AWS walkthru document at the url below which is very good and has really only one error (at the time of this writing).  For some reason the listen gem needs to be at the top level of the gemfile and not in the development section.  
+
+This is a simplified version that drives directly to the production deploy with one db object.  The tutorial below walks you through a set of errors which are educational.
+
+Also... there is a sidebar in the tutorial about a "sample" app that must be executed once to set up roles.  That is not covere here.
 
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Ruby_rails.html
 ## Create a normal rails base app
