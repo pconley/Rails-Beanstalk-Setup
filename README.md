@@ -1,5 +1,5 @@
 # Rails Beanstalk Setup
-These are my note from using the AWS walkthru document at the url below which is very good and has really only one error (at the time of this writing).  For some reason the listen gem needs to be at the top level of the gemfile and not in the development section.  
+These are my notes from using the AWS walkthru document at the url below which is very good and has really only one error (at the time of this writing).  For some reason the listen gem needs to be at the top level of the gemfile and not in the development section.  
 
 This is a simplified version that drives directly to the production deploy with one db object.  The tutorial below walks you through a set of errors which are educational.
 
